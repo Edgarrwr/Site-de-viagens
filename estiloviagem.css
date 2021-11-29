@@ -1,0 +1,201 @@
+*{margin: 0;
+	padding: 0;
+	}
+
+body{
+  background-image: url(img/home.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: times new roman, serif;
+}
+
+header{
+	width: 70%;
+	border-bottom: 2px solid #ffffff;
+	height: 50px;
+	margin-left: 15%;
+	border-radius: 5px;
+}
+header ul{
+	margin-right: 35%;
+}
+
+header li{
+	float: right;
+	padding: 10px;
+	list-style-type:none ;
+	margin-left: 20px;
+}
+
+header a{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 16px;
+	font-family: times new roman, serif;
+}
+
+header a:hover{
+	color: red;
+	border-bottom: 2px solid red;
+}
+
+footer{
+	height: 50px;
+	text-align: center;
+    position: fixed;
+    width: 70%;
+    bottom: 0;
+    margin-left: 15%;
+   
+}
+footer h3{
+	color: #ffffff;
+	text-shadow: 2px 2px #000;
+	font-family: times new roman, serif;
+	padding-top: 5px;
+}
+
+article{
+	position: fixed;
+	left: 5%;
+	top: 24%;
+}
+
+article h3{
+	font-size: 5em;
+	color: white;
+	padding: 10px;
+	text-shadow: 2px 1px #000;
+	text-align: center;
+}
+
+article p{
+	color: white;
+	font-size: 22px;
+	padding: 10px;
+	text-align: center;
+	text-shadow: 1px 1px #a9acb2;
+}
+
+section{
+	background: rgba(  169, 172, 178, 0.6);
+	height: 360px;
+	width: 500px;
+	border-radius: 10px;
+}
+section a{
+	border: 2px solid #ffffff;
+	position: fixed;
+	left: 18%;
+	padding: 5px;
+	color: #ffffff;
+	text-decoration: none;
+	transition: 0.6s;
+	border-radius: 10px;
+	text-shadow: 1px 1px #a9acb2;
+
+}
+
+section a:hover{
+	background:#48485f;
+}
+
+#erwr a{
+	border: 2px solid #ffffff;
+	position: fixed;
+	left: 45%;
+	padding: 5px;
+	color: #ffffff;
+	text-decoration: none;
+	transition: 0.6s;
+	border-radius: 10px;
+	text-shadow: 1px 1px #a9acb2;
+	margin-top: 10px;
+
+}
+
+#erwr a:hover{
+	background:#48485f;
+
+}
+
+#destino{
+	margin-left: 15%;
+	position: fixed;
+	width: 70%;
+
+}
+#destino li{
+	float: left;
+	padding: 10px;
+
+	
+	
+}
+#destino ul{
+	list-style-type: none;
+	margin-left: 25%;
+
+}
+#destino a{
+	text-decoration: none;
+	color: #ffffff;
+	text-align: center;
+	margin-left: 20px;
+}
+
+#destino a:hover{
+	color: red;
+	border-bottom: 2px solid red;
+
+}
+
+#fundo{
+	background-image: url(img/grecia.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: times new roman, serif;
+
+}
+
+#fundo2{
+	background-image: url(img/japao.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: times new roman, serif;
+
+}
+
+#fundo3{
+	background-image: url(img/brasil.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: times new roman, serif;
+
+}
+
+#fundo4{
+	background-image: url(img/fundo1.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: times new roman, serif;
+}
+
+#erwr{
+	position: fixed;
+	left: 26%;
+	top: 24%;
+
+}
+
+#rodape{
+	height: 50px;
+	text-align: center;
+    position: fixed;
+    width: 70%;
+    bottom: 0;
+    border-top: 3px solid #ffffff;
+    margin-left: 15%;
+    background: rgba(  169, 172, 178, 0.2);
+
+}
